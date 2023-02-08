@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka One';
+    background: linear-gradient(#80FFDB, #64DFDF, #48BFE3, #5390D9, #5E60CE);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+}
+
+.titre {
+    display: flex;
+    padding: 20px;
+}
+
+.logo-site {
+    width: 150px;
+}
+
+h2 {
+    text-shadow: 1px 1px 2px #252525;
+    font-size: 36px;
+    font-family: 'Rubik Beastly';
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}
+
+.carte {
+    border-radius: 75px 10px;
+    width: 500px;
+    padding: 24px 24px 42px 24px;
+    margin: 1rem auto auto auto;
+    background: rgba(255, 255, 255, 0.32);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(15.6px);
+    -webkit-backdrop-filter: blur(15.6px);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #252525;
+}
+
+.logo {
+    width: 250px;
+}
+
+#champ {
+    margin: 8px 10px;
+    width: 50%;
+    padding: 10px 22px;
+    border-radius: 14px;
+    border: 2px solid transparent;
+    outline: none;
+}
+
+#champ:focus {
+    border: 2px solid #252525;
+    transition: all .1s ease-in-out;
+}
+
+#btn {
+    padding: 15px 25px;
+    background: transparent;
+    border: 2px solid #252525;
+    border-radius: 24px;
+    color: #252525;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Montserrat';
+}
+
+#btn:hover {
+    background: #252525;
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
