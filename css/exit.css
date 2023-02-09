@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka One';
+    background: linear-gradient(#80FFDB, #64DFDF, #48BFE3, #5390D9, #5E60CE);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 79.2vh;
+}
+
+.carte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 75px 10px;
+    width: 500px;
+    padding: 75px;
+    margin: 7rem auto auto auto;
+    background: rgba(255, 255, 255, 0.32);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(15.6px);
+    -webkit-backdrop-filter: blur(15.6px);
+}
+
+.titre {
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#btn {
+    padding: 15px 25px;
+    background: transparent;
+    border: 2px solid #252525;
+    border-radius: 24px;
+    color: #252525;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-family: 'Montserrat';
+}
+
+#btn:hover {
+    background: #252525;
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
